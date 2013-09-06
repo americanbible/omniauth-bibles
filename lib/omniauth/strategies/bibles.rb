@@ -13,7 +13,7 @@ module OmniAuth
         :token_url => %{#{ACCOUNTS_URL}/auth/queenbee/access_token}
       }
 
-      uid { raw_info['id'] }
+      uid { raw_info['uid'] }
 
       info do
         {
